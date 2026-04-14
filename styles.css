@@ -3,21 +3,44 @@ body {
   font-weight: 400;
   font-size: 1rem; /* 16px */
   line-height: 1.75rem; /* 28px */
+  color: #171717;
+}
+header {
+  border-bottom: 1px solid;
+}
+main {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+article {
+  box-sizing: border-box;
+  max-width: 768px;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;  
+  border: 1px;
+  margin: 0 auto;
 }
 
 h1 {
   font-weight: 800;
+  margin-top: 0PX;
+  margin-bottom: 32PX;
 }
 
 h2 {
   font-weight: 700;
+  margin-top: 48PX;
+  margin-bottom: 24PX;
 }
-
+p{
+  margin-top: 20PX;
+  margin-bottom: 20PX;
+}
 strong {
   font-weight: 700;  
 }
-
-body
+footer
 {
-    color: #171717;
+  border-top: 1px solid;  
 }
